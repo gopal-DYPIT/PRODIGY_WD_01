@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+    margin: 0;
+    /* padding-top: 5em; */
+}
+header{
+    background-color: black;
+    height: 5em;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    transition: background-color 0.4s ease-in-out;
+
+}
+.nav_List {
+    display: flex ;
+}
+ul {
+    list-style: none;
+}
+
+.nav_link:hover {
+    color: lightsalmon;
+}
+
+
+header nav a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3em;
+    margin: 1em;
+    transition: color 0.4s ease-in-out;
+}
+div{
+    height: 1500px;
+    padding: 2em 6em 2em 6em;
+}
+header.scrolled{
+    background-color: rgb(6, 6, 75);
+    opacity: 0.98;
+}
+header.scrolled nav a{
+    color: #fff;
+}
+p{
+    /* padding: 1.5em 0 0.5em 5em; */
+    padding-top: 0;
+    align-items: center;
+    word-spacing: 7px;
+    justify-content: center;
+    font-size: 1.4em;
+    color: lightskyblue;
+}
